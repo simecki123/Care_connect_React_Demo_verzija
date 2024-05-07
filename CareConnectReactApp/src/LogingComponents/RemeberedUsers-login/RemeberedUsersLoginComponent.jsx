@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types'; // Import PropTypes
 import logo from '../../assets/logo.jpg';
 import './RemeberedUsersLoginStyle.css';
@@ -26,10 +27,10 @@ function RemeberedUsersLoginComponent({ RemeberedProfilesData }) {
 
             <div className='login-and-register-options-to-click-container'>
                 <div className='login-option-container'>
-                    <label className='login-option'>Login</label>
+                    <label className='login-option'><Link className='login-option' to="/login">Login</Link></label>
                 </div>
                 <div className='register-option-container'>
-                    <label className='register-option'>Register</label>
+                    <label className='register-option'><Link className='register-option' to="/register">Register</Link></label>
                 </div>
             </div>
         </div>
