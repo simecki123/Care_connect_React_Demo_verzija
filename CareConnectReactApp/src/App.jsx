@@ -4,6 +4,7 @@ import './App.css'
 import RemeberedUsersLoginComponent from './LogingComponents/RemeberedUsers-login/RemeberedUsersLoginComponent';
 import RemeberedProfiles from './RemeberedProfilesData';
 import LoginComponent from './LogingComponents/LoginComponents/LoginComponent';
+import RegisterComponent from './LogingComponents/RegisterComponents/RegisterComponents';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<RemeberedUsersLoginComponent RemeberedProfilesData={RemeberedProfiles} />} />
           <Route path='/login' element={<LoginComponent></LoginComponent>} />
-          <Route path='/register' element={<><p>Hello World</p></>} />
+          <Route path='/register' element={<RegisterComponent></RegisterComponent>} />
         </Routes>
       </Router>
     </>
