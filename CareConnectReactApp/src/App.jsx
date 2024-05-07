@@ -5,6 +5,7 @@ import RemeberedUsersLoginComponent from './LogingComponents/RemeberedUsers-logi
 import RemeberedProfiles from './RemeberedProfilesData';
 import LoginComponent from './LogingComponents/LoginComponents/LoginComponent';
 import RegisterComponent from './LogingComponents/RegisterComponents/RegisterComponents';
+import MainPageComponents from './MainPageComponents/MainPageComponent';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<RemeberedUsersLoginComponent RemeberedProfilesData={RemeberedProfiles} />} />
           <Route path='/login' element={<LoginComponent></LoginComponent>} />
           <Route path='/register' element={<RegisterComponent></RegisterComponent>} />
+          <Route path='mainpage' element={<MainPageComponents />} />
         </Routes>
       </Router>
     </>
