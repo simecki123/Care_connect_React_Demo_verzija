@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css'
+import RemeberedUsersLoginComponent from './LogingComponents/RemeberedUsers-login/RemeberedUsersLoginComponent';
+import RemeberedProfiles from './RemeberedProfilesData';
 
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          
+          <Route path='/' element={<RemeberedUsersLoginComponent RemeberedProfilesData={RemeberedProfiles} />} />
         </Routes>
       </Router>
     </>
