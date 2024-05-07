@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link  } from 'react-router-dom';
 import PropTypes from 'prop-types'; // Import PropTypes
 import logo from '../../assets/logo.jpg';
 import './RemeberedUsersLoginStyle.css';
 
 function RemeberedUsersLoginComponent({ RemeberedProfilesData }) {
+    
     
     return (
         <div className='remebered-login-components-container'>
@@ -14,14 +15,14 @@ function RemeberedUsersLoginComponent({ RemeberedProfilesData }) {
 
             <div className='remebered-accounts-big-container'>
                 {RemeberedProfilesData.map(profile => (
-                    <div key={profile.id} className='remebered-accounts-container'>
-                        <img
-                            className='remebered-account-component-profile-pic-mini'
-                            src={profile.img}
-                            alt='Profile Pic'
-                        />
-                        <label className='remebered-accounts-component-name'>{profile.nameSurname}</label>
-                    </div>
+                    <Link key={profile.id} to="/mainpage" className='remebered-accounts-container'>
+                    <img
+                        className='remebered-account-component-profile-pic-mini'
+                        src={profile.img}
+                        alt='Profile Pic'
+                    />
+                    <label className='remebered-accounts-component-name'>{profile.nameSurname}</label>
+                    </Link>
                 ))}
             </div>
 
