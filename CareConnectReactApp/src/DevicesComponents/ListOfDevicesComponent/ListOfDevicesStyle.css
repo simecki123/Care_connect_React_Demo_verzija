@@ -1,0 +1,60 @@
+/* ListOfDevicesStyle.css */
+
+/* Style for the main container of the devices */
+.big-devices-container {
+    width: 100%;
+    
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the title */
+  .devices-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each device container */
+  .device-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for device container */
+  .device-container:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Style for device label */
+  .device {
+    font-size: 16px;
+  }
+  
+  /* Style for add new device button */
+  .add-new-device-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Hover effect for add new device button */
+  .add-new-device-btn:hover {
+    background-color: #0056b3;
+  }
+  
