@@ -12,9 +12,9 @@ function AIChatBotComponents() {
                     <textarea className='big-textArea' disabled></textarea>
                 </div>
                 <div className='type-question-big-container'>
-                    <button className='add-image-button'>AddIMG</button>
+                    <button className='add-image-button'>📸</button>
                     <input type='text' className='searchbar' placeholder='Type here...' />
-                    <button className='submit-btn'>Submit</button>
+                    <button className='submit-btn'>🔍</button>
                 </div>
             </div>
         </>

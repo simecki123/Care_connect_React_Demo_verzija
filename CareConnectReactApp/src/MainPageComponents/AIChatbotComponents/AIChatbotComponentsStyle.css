@@ -1,19 +1,75 @@
+/* AIChatbotComponentsStyle.css */
+
+/* Style for the main container of the chatbot components */
 .ai-chat-bot-components-big-container {
-    height: 80%;
-    
-    width: 80%;
-}
-
-.load-convo-container {
-    height: 20%;
-
-}
-
-.textAreaContainer {
-    height: 70%;
-}
-
-.big-textArea {
+    width: 100%;
     height: 100%;
-    width: 100%; 
-}
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the button to load conversation */
+  .loadConvo-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the text area container */
+  .textAreaContainer {
+    width: 100%;
+    height: 60vh;
+    resize: none;
+    margin-top: 20px;
+  }
+  
+  /* Style for the large text area */
+  .big-textArea {
+    width: 100%;
+    height: 100%;
+    resize: none; /* Disable textarea resizing */
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the container of input and buttons to type a question */
+  .type-question-big-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the button to add image */
+  .add-image-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the input field */
+  .searchbar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the submit button */
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
