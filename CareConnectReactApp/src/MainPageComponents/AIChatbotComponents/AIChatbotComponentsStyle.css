@@ -1,0 +1,19 @@
+.ai-chat-bot-components-big-container {
+    height: 80%;
+    
+    width: 80%;
+}
+
+.load-convo-container {
+    height: 20%;
+
+}
+
+.textAreaContainer {
+    height: 70%;
+}
+
+.big-textArea {
+    height: 100%;
+    width: 100%; 
+}
