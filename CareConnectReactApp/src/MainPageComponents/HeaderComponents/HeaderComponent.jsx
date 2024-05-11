@@ -1,5 +1,6 @@
 import './HeaderStyle.css';
 import logo from '../../assets/logo.jpg';
+import { Link } from 'react-router-dom';
 
 function HeaderComponent() {
     return(
@@ -11,9 +12,11 @@ function HeaderComponent() {
                         <img className='header-logo' src={logo}></img>
                     </div>
 
-                    <div className='options-container'>
-                        <label className='option-label'>Devices</label>
-                    </div>
+                    <Link className='options-container' to={"/devices"}>
+                        <div className='options-container'>
+                                <label className='option-label'>Devices</label>
+                        </div>
+                    </Link>
                     <div className='options-container'>
                         <label className='option-label'>Your Doctor</label>
                     </div>
