@@ -17,21 +17,37 @@ function HeaderComponent() {
                                 <label className='option-label'>Devices</label>
                         </div>
                     </Link>
-                    <div className='options-container'>
-                        <label className='option-label'>Your Doctor</label>
-                    </div>
-                    <div className='options-container'>
-                        <label className='option-label'>Convo History</label>
-                    </div>
-                    <div className='options-container'>
-                        <label className='option-label'>Medical history</label>
-                    </div>
+
+                    <Link className='options-container' to={"/yourDoctor"}>
+                        <div className='options-container'>
+                            <label className='option-label'>Your Doctor</label>
+                        </div>
+                    </Link>
+
+                    <Link className='options-container' to={"/convoHistory"}>
+                        <div className='options-container'>
+                            <label className='option-label'>Convo History</label>
+                        </div>
+                    </Link>
+
+                    <Link className='options-container' to={"/medicalHistory"}>
+                        <div className='options-container'>
+                            <label className='option-label'>Medical history</label>
+                        </div>
+                    </Link>
+
+                    <Link className='options-container' to={"/medicalDocuments"}>
                     <div className='options-container'>
                         <label className='option-label'>Medical Documents</label>
                     </div>
-                    <div className='options-container'>
-                        <label className='option-label'>Medications</label>
-                    </div>
+                    </Link>
+
+                    <Link className='options-container' to={"/medications"}>
+                        <div className='options-container'>
+                            <label className='option-label'>Medications</label>
+                        </div>
+                    </Link>
+
                 </div>
                 <hr className='header-break-line' />
 
