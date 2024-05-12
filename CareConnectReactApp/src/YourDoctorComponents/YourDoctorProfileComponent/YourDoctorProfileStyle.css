@@ -1,0 +1,60 @@
+/* YourDoctorProfileComponentStyle.css */
+
+/* Style for the profile card container */
+.doctor-profileContainer-big {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+/* Style for the profile picture container */
+.doctor-profile-pic-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Make the image round */
+  overflow: hidden; /* Hide overflow to ensure rounded shape */
+  margin-bottom: 20px;
+}
+
+/* Style for the profile picture */
+.doctor-profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Style for the name and title container */
+.name-title-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style for the name label */
+.doctor-name-label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style for the title label */
+.title-label {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Style for the profile description */
+.doctor-profile-description {
+  text-align: justify;
+  line-height: 1.6;
+}
