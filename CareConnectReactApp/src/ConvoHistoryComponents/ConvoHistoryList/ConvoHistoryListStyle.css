@@ -1,0 +1,73 @@
+/* ConvoHistoryListStyle.css */
+
+/* Style for the main container of conversation history list */
+.convo-history-list-big-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for each conversation container */
+  .convo-history-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for conversation title */
+  .convo-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style for Load button */
+  .load-convo-button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .load-convo-button:hover {
+    background-color: #0154ac;
+  }
+  
+  /* Style for Delete button */
+  .delete-convo-button {
+    background-color: #dc3545; /* Red button */
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .delete-convo-button:hover {
+    background-color: #981d29;
+  }
+  
+  /* Style for Clear All Conversations button */
+  .delete-all-convo-button {
+    background-color: #6c757d; /* Gray button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+  }
+
+  .delete-all-convo-button:hover {
+    background-color: #dc3545;
+  }
+  

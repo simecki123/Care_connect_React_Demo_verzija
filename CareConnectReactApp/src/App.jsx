@@ -8,6 +8,7 @@ import RegisterComponent from './LogingComponents/RegisterComponents/RegisterCom
 import MainPageComponents from './MainPageComponents/MainPageComponent';
 import DevicesComponent from './DevicesComponents/DevicesComponent';
 import YourDoctorComponent from './YourDoctorComponents/YourDoctorComponent';
+import ConvoHistoryComponent from './ConvoHistoryComponents/ConvoHistoryComponent';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           <Route path='/mainpage' element={<MainPageComponents />} />
           <Route path='/devices' element={<DevicesComponent />} />
           <Route path='/yourDoctor' element={<YourDoctorComponent />} />
-          <Route path='/convoHistory' element={<YourDoctorComponent />} />
+          <Route path='/convoHistory' element={<ConvoHistoryComponent />} />
           <Route path='/medicalHistory' element={<YourDoctorComponent />} />
           <Route path='/medicalDocuments' element={<YourDoctorComponent />} />
           <Route path='/medications' element={<YourDoctorComponent />} />
