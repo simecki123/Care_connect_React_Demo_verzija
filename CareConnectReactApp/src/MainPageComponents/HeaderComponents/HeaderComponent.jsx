@@ -8,9 +8,13 @@ function HeaderComponent() {
             <header>
 
                 <div className='header-container'>
-                    <div className='logo-header-container'>
-                        <img className='header-logo' src={logo}></img>
-                    </div>
+                    <Link className='options-container' to={"/mainpage"}>
+                        <div className='logo-header-container'>
+                            <img className='header-logo' src={logo}></img>
+                        </div>
+                    </Link>
+
+                    
 
                     <Link className='options-container' to={"/devices"}>
                         <div className='options-container'>
