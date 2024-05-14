@@ -10,6 +10,7 @@ import DevicesComponent from './DevicesComponents/DevicesComponent';
 import YourDoctorComponent from './YourDoctorComponents/YourDoctorComponent';
 import ConvoHistoryComponent from './ConvoHistoryComponents/ConvoHistoryComponent';
 import MedicalHistoryComponent from './MedicalHistoryComponents/MedicalHistoryComponents';
+import MedicalDocumentsComponent from './MedicalDocumentsComponents/MedicalDocumentsComponent';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
           <Route path='/yourDoctor' element={<YourDoctorComponent />} />
           <Route path='/convoHistory' element={<ConvoHistoryComponent />} />
           <Route path='/medicalHistory' element={<MedicalHistoryComponent />} />
-          <Route path='/medicalDocuments' element={<YourDoctorComponent />} />
+          <Route path='/medicalDocuments' element={<MedicalDocumentsComponent />} />
           <Route path='/medications' element={<YourDoctorComponent />} />
 
         </Routes>
