@@ -1,5 +1,5 @@
 import './ProfileComponentStyle.css';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/AndrejPlenkovic.jpg';
 
 function ProfileComponent() {
     return(
@@ -10,37 +10,37 @@ function ProfileComponent() {
                 </div>
                 <div className='user-data-container'>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Name:</label>
+                        <label className='data-labels'>Name: Andrej</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Surname:</label>
+                        <label className='data-labels'>Surname: Plenković</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Height:</label>
+                        <label className='data-labels'>Height: 185</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Weight:</label>
+                        <label className='data-labels'>Weight: 90kg</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Age:</label>
+                        <label className='data-labels'>Age: 50</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Invalid:</label>
+                        <label className='data-labels'>Invalid: no</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Priority:</label>
+                        <label className='data-labels'>Priority: high</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Heart Rate:</label>
+                        <label className='data-labels'>Heart Rate: 90</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Blood Preassure:</label>
+                        <label className='data-labels'>Blood Preassure:150</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Blood Oxygen:</label>
+                        <label className='data-labels'>Blood Oxygen: 95</label>
                     </div>
                     <div className='data-labels-container'>
-                        <label className='data-labels'>Stress:</label>
+                        <label className='data-labels'>Stress: 45</label>
                     </div>
                 </div>
 

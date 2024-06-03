@@ -61,93 +61,153 @@
   }
 
 /* MedicationsListStyle.css */
+/* MedicationsListStyle.css */
 
 /* Style for the main container of medications list */
 .medications-list-big-container {
-    width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #f8f9fa; /* Light background color */
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style for the title of medications section */
-  .medications-list-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333; /* Dark text color */
-  }
-  
-  /* Style for automatic order container */
-  .automatic-order-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  /* Style for automatic order label */
-  .automatic-order-title {
-    font-size: 18px;
-    margin-right: 10px;
-  }
-  
-  /* Style for medication list element container */
-  .medication-list-element-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #fff; /* White background */
-    border-radius: 5px;
-    margin-bottom: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style for medication label */
-  .medication-label {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  /* Style for medication buttons container */
-  .medication-buttons-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Style for medication info button */
-  .medication-info-button {
-    background-color: #007bff; /* Blue button */
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    transition: background-color 0.3s ease;
-  }
-  
-  /* Hover effect for medication info button */
-  .medication-info-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-  
-  /* Style for medication order button */
-  .medications-order-button {
-    background-color: #28a745; /* Green button */
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  /* Hover effect for medication order button */
-  .medications-order-button:hover {
-    background-color: #218838; /* Darker green on hover */
-  }
-  
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the title of medications section */
+.medications-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+/* Style for automatic order container */
+.automatic-order-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for automatic order label */
+.automatic-order-title {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Style for medication list element container */
+.medication-list-element-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff; /* White background */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for medication label */
+.medication-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for medication buttons container */
+.medication-buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for medication info button */
+.medication-info-button {
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for medication info button */
+.medication-info-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for medication order button */
+.medications-order-button {
+  background-color: #28a745; /* Green button */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for medication order button */
+.medications-order-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.close-modal-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.close-modal-button:hover {
+  background-color: #c82333;
+}
+
+/* Order confirmation message styles */
+.order-confirmation {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadein 0.5s, fadeout 0.5s 1.5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeout {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

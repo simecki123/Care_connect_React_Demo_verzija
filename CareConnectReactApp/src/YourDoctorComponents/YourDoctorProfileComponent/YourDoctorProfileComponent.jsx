@@ -1,5 +1,5 @@
 import './YourDoctorProfileStyle.css';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/drscthompson.webp';
 
 
 function YourDoctorProfileComponent() {
@@ -11,7 +11,7 @@ function YourDoctorProfileComponent() {
                 </div>
 
                 <div className='name-surname-container'>
-                    <label className='doctor-name-surname-label'>Skibidi toilet</label>
+                    <label className='doctor-name-surname-label'>Marko Perković Thompson</label>
                 </div>
 
                 <div className='title-of-doctor-container'>
@@ -19,7 +19,7 @@ function YourDoctorProfileComponent() {
                 </div>
 
                 <div className='doctor-profile-description'>
-                    <p className='doctor-profile-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id aperiam iusto unde perferendis autem, quia illo, quod illum delectus quae blanditiis dolore. Et facere alias dignissimos eveniet sapiente reprehenderit!</p>
+                    <p className='doctor-profile-description'>Svježi vjetar s Dinare će vas izlječiti. Ja sam doktor trust me bro.</p>
                 </div>
             </div>
         </>

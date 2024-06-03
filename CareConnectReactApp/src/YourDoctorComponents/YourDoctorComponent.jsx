@@ -7,7 +7,7 @@ function YourDoctorComponent() {
         <>
             <HeaderComponent />
             <YourDoctorProfileComponent />
-            <YourDoctorProfileComponent />
+            
         </>
     );
 }
